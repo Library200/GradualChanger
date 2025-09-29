@@ -101,7 +101,7 @@ public:
             return;
         }
         ref_ += step_ * (clock_-prevClk_);
-        left_ -= 1;
+        left_ -= (clock_ - prevClk_);
         prevClk_ = clock_;
     }
 };
