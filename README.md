@@ -19,7 +19,7 @@
 ## 📦 快速上手
 
 ```cpp
-#include "GradualChanger.hpp"
+#include "GradualChanger.h"
 #include <iostream>
 
 int main() {
