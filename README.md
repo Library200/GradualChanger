@@ -7,7 +7,7 @@
 
 ## ✨ 特性
 
-- **头文件-only** —— `#include "GradualChanger.hpp"` 即可  
+- **头文件-only** —— `#include "GradualChanger.h"` 即可  
 - **类型泛化** —— 内置支持所有算术类型；自定义类型只需特化 `GradualTraits<T>`  
 - **无动态分配**（用户侧）—— 内部用侵入链表管理生命周期，完成自动 `delete`  
 - **帧率无关** —— 依赖外部时钟（`const int&`），可匀速、可变速、可暂停  
